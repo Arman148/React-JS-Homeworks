@@ -1,0 +1,88 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(20, 132, 136, 0.199);
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.2);
+    border-radius: 7px;
+    width: 100%;
+    height: 130px;
+}
+
+a{
+    color: gold;
+    margin-right: 5%;
+
+}
+
+h1{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1:hover{
+    color: rgb(0, 160, 0);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 132, 136, 0.199);
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.2);
+    border-radius: 7px;
+    width: 30%;
+    min-width: 20%;
+    min-height: 300px;
+    margin-top: 5%;
+}
+
+input{
+    border: white;
+    border-radius: 7px;
+    margin: 1%;
+    width: 70%;
+    height: 40px;
+    min-height: 30px;    
+    color: gray;
+    font-size: initial ;
+    font-family: sans-serif;
+    outline: 0;
+    
+}
+
+button{
+    background-color:  green;
+    border: none;
+    border-radius: 7px;
+    border-bottom:3px solid gold;
+    width: 30%;
+    height: 60px;
+    margin-top: 1%;
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.2);
+
+}
+
+button:hover{
+    background-color: rgb(0, 160, 0);
+}
+
+.but_h1{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.but_h1:hover{
+    color: gold;
+}
